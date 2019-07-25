@@ -14,8 +14,6 @@ public class ScoreManager : MonoBehaviour
         scoreDisplay.text = score.ToString();
     }
 
-
-
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Obstacle"))
